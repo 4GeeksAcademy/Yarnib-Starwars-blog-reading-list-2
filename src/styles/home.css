@@ -1,0 +1,80 @@
+.Card-text{
+    margin: 0 100% 1% 0;
+    padding-left: 1;  
+    white-space: nowrap;
+}
+
+.Card-title{
+    margin: 4% 100% 4% 0;
+    padding-left: 35%;
+    white-space: nowrap;
+}
+
+
+.btn .btn-outline-primary{
+    margin: 5% 100% 5% 6%;
+    white-space: nowrap;
+    padding: 3% 4%;
+}
+
+.btn .btn-outline-warning{
+    margin: 5% 6% 5% 100%;
+}
+
+/* button{
+    margin: 5% 100% 5% 6%;
+    white-space: nowrap;
+    padding: 3% 4%;
+} */
+
+.btDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.h2Title{
+    margin: 1% 100% 4% 0;
+    color: rgb(0, 13, 255);
+}
+
+.characters{
+    display: flex;
+}
+
+.fullCard{
+    margin-right:3.5%;
+    border: groove 1.8px rgba(0, 0, 0, 0.4);
+    background-color: rgb(120, 120, 120);
+
+}
+
+.font{
+    color: white;
+}
+.singleText{
+    text-align: right;
+}
+
+.navbarImage{
+    width: 14%;
+    height: 87%;
+    padding-left: 5%;
+}
+
+.horizontalScroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+body{
+    background-color: black;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.navbar-with-background-image {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3d65d3c3-1064-410f-9dbf-0c48ff7decbe/dcm7n7q-8a54a914-2897-4188-ba8f-b96e6c77489a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zZDY1ZDNjMy0xMDY0LTQxMGYtOWRiZi0wYzQ4ZmY3ZGVjYmUvZGNtN243cS04YTU0YTkxNC0yODk3LTQxODgtYmE4Zi1iOTZlNmM3NzQ4OWEucG5nIn1dXX0.Ex6v52jfGAkDa0xGSSAnEp72V6Uel3FGAqK7Op-_7mI');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Additional styles for the background, if needed */
+  }
